@@ -21,8 +21,6 @@
 
 <img src="files/strategy.png" style="zoom: 50%;"  div align=left />
 
-
-
 ## 数据集
 
 目前世界上最大的狗细分类数据集Tsinghua Dogs，包含130个品种，总计70428张图（每张图仅包含一只狗）。
@@ -115,6 +113,7 @@ albumentations==0.5.2
 注：[预训练权重下载](https://pan.baidu.com/s/11datrjvWpepZ3Q9ab2U83A)  提取码5w1z
 
 > A榜:   model_7.pkl + model_11.pkl + model_6.pkl =  66.62%
+>
 > B榜：model_7.pkl + model_11.pkl + model_6.pkl + model_8.pkl + model_7_new.pkl =  64.58%
 
 ------
