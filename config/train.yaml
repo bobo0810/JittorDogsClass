@@ -1,0 +1,25 @@
+net:
+    name: ResNeXt50
+    pretrain: null
+
+optimizer:
+    type: SAM  # SGD or SAM
+    epochs: 15
+    lr: 0.001
+    schduler:
+        type: Warmup_CosLR
+        warmup: 3
+train:
+    crop_type: body  # 裁剪狗身
+    img_size: [420,420]
+    # batch_size = n_classes * n_samples 即 理论batch=类别数 * 类内样本数
+    n_classes: 3
+    n_samples: 3
+    loss: FocalLoss   # CrossEntropy or  FocalLoss
+
+eval:
+    use_eval: true
+
+
+
+

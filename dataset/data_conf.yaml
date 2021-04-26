@@ -1,0 +1,12 @@
+# ThuDogs数据集
+Train:
+    default: /media/data/data01/lipengbo/DataSet/thudogs/high-resolution
+
+Test:
+    Body:
+        default: /home/lipengbo/AllDataSet/ThusDogs/A-test-objects-0225  # A榜已裁剪狗身
+        #default: /media/data/data01/lipengbo/DataSet/thudogs/dog_test_B_0408       # B榜已裁剪狗身
+
+    Head: # 弃用狗头方案
+        default: null
+

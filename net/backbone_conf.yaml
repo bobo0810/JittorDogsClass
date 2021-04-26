@@ -1,0 +1,10 @@
+
+ResNeXt50:
+    class_nums: 130
+
+ResNeXt101:
+    class_nums: 130
+    
+EcaResNet50t:
+    class_nums: 130
+

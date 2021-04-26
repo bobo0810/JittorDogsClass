@@ -1,0 +1,8 @@
+crop_type: body  # body狗身
+save_name: fusion.json # 预测结果保存为json文件
+fusion:
+    [   # 多模型融合
+        {img_size: [368,368],batch_size: 80,model: ResNeXt50,pretrain: /home/xxx.pkl},
+        {img_size: [420,420],batch_size: 80,model: ResNeXt50,pretrain: /home/xxx.pkl},
+        {img_size: [420,420],batch_size: 80,model: ResNeXt50,pretrain: /home/xxx.pkl}
+    ]
